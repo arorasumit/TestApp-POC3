@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TestApp-POC3
+  host: TestApp-POC3
+  disk_quota: 1024M
+  services:
+  - TestApp-POC3-cloudantNoSQLDB
